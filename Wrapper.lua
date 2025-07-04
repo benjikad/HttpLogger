@@ -12,6 +12,7 @@ local suggestedItems = {
     ['clipboard'] = {'toclipboard','setclipboard','setrbxclipboard','clipboard.set','writeclipboard','copyclipboard'},
     ['getcustomasset'] = {'getcustomasset','get_custom_asset','getsynasset'},
     ['writefile'] = {'writefile','WriteFile','write_file','syn_io_write'},
+    ['isfile'] = {'isfile'},
     ['delfile'] = {'delfile','delFile','deletefile','delete_file'},
     ['cloneref'] = {'cloneref','cloneRef','clone_ref'},
 }
