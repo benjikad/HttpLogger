@@ -50,7 +50,7 @@ end
 for i,v in requiredItems do
     local result = table.pack(exists(v,'function','Required item \''..i..'\' couldn\'t be found.')) 
     if result[1] ~= true then
-        return
+        return false,'Required item \''..i..'\' couldn\'t be found.'
     end
     gotItems[i] = result
 end
