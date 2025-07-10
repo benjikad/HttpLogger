@@ -2,7 +2,7 @@ local requiredItems = {
     ['hookfunction'] = {'hookfunction','hookfunc','debug.hookfunction','debug.hookfunc','hook'},
     ['getrawmetatable'] = {'getrawmetatable','debug.getmetatable'},
     ['setreadonly'] = {'setreadonly','set_readonly','make_readonly'},
-    ['getnamecallmethod'] = {'getnamecallmethod','get_namecall_method'},
+    ['getnamecallmethod'] = {'getnamecallmethod','get_namecall_method','getnamecall'},
 
     ['httpget'] = {'httpget','httpgetasync','HttpGet','HttpGetAsync','game.HttpGet','game.HttpGetAsync'},
     ['httppost'] = {'httppost','HttpPostAsync','HttpPost','http_post','game.HttpPost','game.HttpPostAsync'},
